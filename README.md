@@ -15,7 +15,6 @@ $npm install convert-camelcase
 import CamelCase from 'convert-camelcase';
 let camelCase = new CamelCase;
 
-//add
 camelCase.convert({my_name: 'pdw'})
 //{myName: 'pdw'}
 
